@@ -7,14 +7,14 @@ from datetime import datetime
 
 
 MANIFEST = {
-    "id": "shuvamjaswal.stremio.googledrive",
-    "version": "1.1.0",
-    "name": "GDrive",
-    "description": "This plugin fetches content from goolag drive.",
-    "logo": "https://fonts.gstatic.com/s/i/productlogos/drive_2020q4/v8/web-512dp/logo_drive_2020q4_color_1x_web_512dp.png",
-    "resources": ["stream"],
-    "types": ["movie", "series"],
-    "catalogs": [],
+  "id": "hy.stremio.googledrive",
+  "version": "2.0.0",
+  "name": "GDrive Reborn",
+  "description": "VOD from Google Drive",
+  "logo": "https://raw.githubusercontent.com/mik25/stremio-greek-tv/master/pngwing.com.png",
+  "resources": ["stream"],
+  "types": ["movie", "series"],
+  "catalogs": []
 }
 
 
