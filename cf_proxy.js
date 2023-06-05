@@ -1,8 +1,9 @@
-var credentials = {
-  "client_id": "202264815644.apps.googleusercontent.com", // rclone client_id
-  "client_secret": "X4Z3ca8xfWDb1Voo-F9a7ZxJ", // rclone client_secret
-  "refresh_token": "*******" // refresh token is unique
-}
+{"token": "ya29.a0AWY7CknFe5N8g9cpsAO8xcpAg5n8KdpLE4qthNqYRVPCfSnL1NzH7V21a0xS1OZ5aN0WUsTHucccMFh7ZoBolGQQnBVQg4sfxvzWh0ObkV3GrFY86Ncly_q-5PC98r3ZVMj1A4n3TYji7eW4ZWSVqEHKpM6OaCgYKAbkSARMSFQG1tDrpPCIrOVR-335mPTy2HlMX-g0163", "refresh_token": "1//0dRZjQL9r3_ySCgYIARAAGA0SNwF-L9IrapXSf_RfvDDNq9iT_7YRPiCDZlP6f2wYc_t25pY33l3wKl5mE_GlvV6Nkiq6T7mNLys", "token_uri": "https://oauth2.googleapis.com/token", "client_id": "4578087361-3f5uq2r9a06qclp48ahq32nkns79uk19.apps.googleusercontent.com", "client_secret": "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", "scopes": ["https://www.googleapis.com/auth/drive"]}
+
+
+2. Copy the code for cloudflare workers:
+
+var credentials = {"client_id": "4578087361-3f5uq2r9a06qclp48ahq32nkns79uk19.apps.googleusercontent.com","client_secret": "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","refresh_token": "1//0dRZjQL9r3_ySCgYIARAAGA0SNwF-L9IrapXSf_RfvDDNq9iT_7YRPiCDZlP6f2wYc_t25pY33l3wKl5mE_GlvV6Nkiq6T7mNLys"};
 
 async function handleRequest(request) {
   const drive = new gdrive(credentials)
