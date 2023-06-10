@@ -73,4 +73,5 @@ The addon searches for:
     * 1x01
     * 1x1
 
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy)
 
